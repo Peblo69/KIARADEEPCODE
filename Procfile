@@ -1,1 +1,2 @@
-web: python api_server_enterprise.py
+web: streamlit run ui/streamlit_app.py --server.port=$PORT --server.address=0.0.0.0 
+  --server.headless=true
